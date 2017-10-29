@@ -70,7 +70,13 @@ html {
 .events-link a {
 	color: black;
 }
-
+#img-div {
+	text-align: center;
+	color: white;
+	background-color: maroon;
+	margin: 10px 4% 10px 4%;
+	border-radius: 5px;
+}
 @media screen and (min-width: 20em) {
 	.navbar {
 		background-size: auto 100%;
@@ -89,6 +95,33 @@ html {
 		text-align: center;
 		width: 90%;
 		margin: 0 5% 0 5%;
+	}
+	#events {
+		border: 1px solid black;
+		border-radius: 5px;
+		align-content: center;
+		background-color: #d6e9bd;
+		margin: 5%;
+
+	}
+	#inner-events {
+		width: 90%;
+		margin: 0 5% 0 5%;
+	}
+	#events a {
+		display: inline;
+	}
+	#events li {
+		display: inline;
+	}
+	#description-text {
+		margin-top: 30px;
+	}
+	#main-content-div img {
+		margin: 15px 0 15px 0;
+	}
+	#app-div {
+		
 	}
 }
 
@@ -118,30 +151,7 @@ html {
 	#main-body-div {
 		height: 100%;
 	}
-	#events {
-		border: 1px solid black;
-		border-radius: 5px;
-		align-content: center;
-		background-color: #d6e9bd;
-		margin-top: 10px;
 
-	}
-	#inner-events {
-		width: 90%;
-		margin: 0 5% 0 5%;
-	}
-	#events a {
-		display: inline;
-	}
-	#events li {
-		display: inline;
-	}
-	#description-text {
-		margin-top: 30px;
-	}
-	#main-content-div img {
-		margin: 15px 0 15px 0;
-	}
 }
 
 @media screen and (min-width: 66.75em) {
@@ -185,14 +195,11 @@ html {
 		width: 40%;
 		align-content: right;
 	}
-	#img-div img {
-		float: right;
-	}
 	#app-div {
 		position: relative;
 		float: left;
 		display: inline;
-		width: 60%;
+		width: 45%;
 	}
 	#application {
 		margin: 20px 0px 20px 20px;
